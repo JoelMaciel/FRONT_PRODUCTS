@@ -1,8 +1,10 @@
 # PRODUCT FRONT FOR CLOUD AWS
 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JoelMaciel/FRONT_PRODUCTS/blob/dev/LICENCE)
+
 # About the project
 
-Product Catalog Project where users can register on the platform through login, after authentication they can list the products of their choice and order the product.
+Product registration  where users register, update and delete products
 
 ## Conceptual Model
 
@@ -29,7 +31,7 @@ Angular 13
 
 ```bash
 # clone repository
-git clone https://github.com/JoelMaciel/Product-Catalog.git
+git clone https://github.com/JoelMaciel/FRONT_PRODUCTS.git
 
 # enter the back end project folder
 cd front_product
