@@ -1,27 +1,46 @@
-# FrontProduct
+# PRODUCT FRONT FOR CLOUD AWS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+# About the project
 
-## Development server
+Product Catalog Project where users can register on the platform through login, after authentication they can list the products of their choice and order the product.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Conceptual Model
 
-## Code scaffolding
+# Technologies used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Front end
 
-## Build
+- Angular 13
+- Bootstrap
+- Html, CSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Deployment in production
 
-## Running unit tests
+- Fron end: AWS
+- Database: MySQL
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# How to run the project
 
-## Running end-to-end tests
+## Front end
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Prerequisites:
+Node version 16 +
+Angular 13
 
-## Further help
+```bash
+# clone repository
+git clone https://github.com/JoelMaciel/Product-Catalog.git
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# enter the back end project folder
+cd front_product
+
+# run the project
+
+
+
+# Author
+
+Joel Maciel Viana
+
+https://www.linkedin.com/in/joelmaciel-java-backend/
+```
