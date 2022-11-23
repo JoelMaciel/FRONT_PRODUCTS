@@ -26,7 +26,7 @@ Product registration  where users register, update and delete products
 ## Front end
 
 Prerequisites:
-Node version 16 +
+Node version 16 + ,
 Angular 13
 
 ```bash
