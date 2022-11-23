@@ -18,10 +18,9 @@ export class AppComponent {
     description: [],
   });
 
-  constructor(
-    private fb: FormBuilder,
-    private productService: ProductService
-  ) {}
+  constructor(private fb: FormBuilder, private productService: ProductService) {
+    this.findAllProducts();
+  }
 
   findAllProducts() {
     this.productService.findAll().subscribe({
