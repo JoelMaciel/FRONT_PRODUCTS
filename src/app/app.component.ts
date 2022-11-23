@@ -25,8 +25,8 @@ export class AppComponent {
 
   findAllProducts() {
     this.productService.findAll().subscribe({
-      next: (result) => {
-        this.products = result;
+      next: (res) => {
+        this.products = res;
       },
       error: (error) => {
         console.log(error);
@@ -50,8 +50,8 @@ export class AppComponent {
 
       this.productService.save(product).subscribe({
         next: (res) => {
-          this.findAllProducts();
           this.productForm.reset();
+          this.findAllProducts();
           alert('Product saved successfully');
         },
         error: (error) => {
@@ -63,12 +63,13 @@ export class AppComponent {
 
   delete(product: Product) {
     const confirmation = confirm(
-      'Are you sure you want to delete this product'
+      'Are you sure you want to delete this product' + product.name
     );
     if (confirmation) {
       const id = product.id ?? 0;
       this.productService.delete(id).subscribe({
-        next: (result) => {
+        next: (res) => {
+          this.findAllProducts();
           alert('Product deleted successfully');
         },
         error: (error) => {
